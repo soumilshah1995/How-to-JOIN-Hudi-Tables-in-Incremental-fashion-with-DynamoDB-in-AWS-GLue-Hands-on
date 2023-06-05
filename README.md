@@ -22,5 +22,10 @@ How to JOIN Hudi Tables in Incremental fashion with DynamoDB in AWS GLue | Hands
 ```
 
 ### Step 3 Run Template which will fetch data from dynamodb and will fetch the data from Hudi in incremental Fashion incremental_etl.py and check the cloudwatch as shown in videos
+![image](https://github.com/soumilshah1995/How-to-JOIN-Hudi-Tables-in-Incremental-fashion-with-DynamoDB-in-AWS-GLue-Hands-on/assets/39345855/0ca54c67-97da-43dc-8564-61f5304be48d)
+
+### Joined Data 
+![image](https://github.com/soumilshah1995/How-to-JOIN-Hudi-Tables-in-Incremental-fashion-with-DynamoDB-in-AWS-GLue-Hands-on/assets/39345855/76872db3-4559-437f-9086-05fe983ea5b1)
+
 
 # Enjoy
