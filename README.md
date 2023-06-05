@@ -15,7 +15,11 @@ How to JOIN Hudi Tables in Incremental fashion with DynamoDB in AWS GLue | Hands
 ### Step 2 Create Sample Glue job create_hudi_table.py on AWS Glue 
 * This will create a Hudi table called orders and populate dynamodb table 'customers' with some fake data 
 ![image](https://github.com/soumilshah1995/How-to-JOIN-Hudi-Tables-in-Incremental-fashion-with-DynamoDB-in-AWS-GLue-Hands-on/assets/39345855/693bdd9a-d908-4caf-a161-f7684447220a)
-
+```
+--additional-python-modules  | faker==11.3.0,pynamodb
+--conf  |  spark.serializer=org.apache.spark.serializer.KryoSerializer  --conf spark.sql.hive.convertMetastoreParquet=false --conf spark.sql.hive.convertMetastoreParquet=false --conf spark.sql.catalog.spark_catalog=org.apache.spark.sql.hudi.catalog.HoodieCatalog --conf spark.sql.legacy.pathOptionBehavior.enabled=true --conf spark.sql.extensions=org.apache.spark.sql.hudi.HoodieSparkSessionExtension
+--datalake-formats | hudi
+```
 
 ### Step 3 Run Template which will fetch data from dynamodb and will fetch the data from Hudi in incremental Fashion incremental_etl.py and check the cloudwatch as shown in videos
 
