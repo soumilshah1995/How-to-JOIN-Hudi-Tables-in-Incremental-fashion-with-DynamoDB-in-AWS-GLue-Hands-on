@@ -5,6 +5,11 @@ How to JOIN Hudi Tables in Incremental fashion with DynamoDB in AWS GLue | Hands
 # How To Use template 
 ![image](https://github.com/soumilshah1995/How-to-JOIN-Hudi-Tables-in-Incremental-fashion-with-DynamoDB-in-AWS-GLue-Hands-on/assets/39345855/0bc84efb-9033-44cd-9302-29d08e2bd2a7)
 
+## Video 
+https://www.youtube.com/watch?v=ALhk1vYAwLc&feature=youtu.be
+
+
+
 # Steps to follow 
 
 ### Step 1 Create DynamoDB table called customers 
